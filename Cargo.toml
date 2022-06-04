@@ -1,0 +1,11 @@
+[package]
+name = "osbuild-ks"
+version = "0.1.0"
+edition = "2021"
+authors = ["Simon de Vlieger <cmdr@supakeen.com>"]
+description = "Convert Kickstart files to osbuild manifests."
+
+[dependencies]
+clap = { version = "3.1", features = ["cargo"] }
+log = { version = "0.4" }
+stderrlog = { version = "0.5" }
